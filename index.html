@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset = "UTF-8">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="./Assets/CSS/style.css"/>
+    
+    <title>Weather</title>
+</head>
+
+<body>
+    <div class="flex-container" id="container">
+      <nav class="navbar bg-dark navbar-dark"style="height: 100px;">
+        <a style = "color: white; font-size: xx-large; text-align:center; white-space: nowrap;" class = "weatherBar">Weather Dashboard</a>
+      </nav>
+    </div>
+      <div class="jumbotron leftBox">
+        <h2>Search for a City:</h2>
+        <br>
+        <input type="text" name="search" id="searchBar">
+        <button id="searchBtn" class = "searchBtn" type="submit"><i class = "fa fa-search"></i></button>
+        <br><br><br>
+        <div class="searchHolder">
+          
+        </div>
+      </div>
+    <div class="container" id="right-container">
+      <div class="bigDisplay">
+        
+      </div>
+
+    </div>
+      
+<script src="./Assets/JS/script.js"></script>
+</body>
+</html>
