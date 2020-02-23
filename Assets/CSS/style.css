@@ -1,12 +1,17 @@
 .weatherBar { 
-    color: white;
     margin: auto;
     width: 100px;
+    
+}
+
+.navbar { 
+    background-image: url(https://blogs.vmware.com/canada/files/2019/09/cloud-trends.jpg);
+    background-size: cover;
 }
 
 .leftBox {
     width: 26%;
-    height: 790px;
+    height: 840px;
     background-color: darkgray;
     margin-bottom: 0px;
     float: left;
@@ -54,11 +59,21 @@
     font-size: large;
 }
 
+.clearBtn { 
+    height: 50px;
+    width: 90px;
+    border-radius: 8%;
+    margin-right: 25px;
+    color: black;
+    background-color: rgb(234, 246, 253);
+}
+
 #right-container { 
     width: 1800px;
     height: 750px;
     background-color: white;
     margin-right: 0px;
+    float: left;
     
 }
 
@@ -85,9 +100,9 @@
 
 
 .card-deck { 
-    border: 3px black solid;
+    /* border: 3px black solid; */
     height: 378px;
-    background-color: lightgreen;
+    /* background-color: lightgreen; */
     margin-left: 20px;
     width: 98%;
     
@@ -96,20 +111,72 @@
 
 .card-main { 
     height: 175px;
-    width: 15%;
+    width: 16%;
     margin-top: 197px;
-    margin-left: 25px;
-    border-radius: 5px;
+    margin-left: 35px;
+    background: blue;
+    border-radius: 5%;
+    border: 2px solid blue;
+    color: white;
 }
 
 
 .card-body { 
     height: 100%;
-    background-color: lightpink;
+    background-color: blue;
     color: white;
+    padding-right: 25px;
 
 }
 
 #icon { 
     width: 50px;
+}
+
+.blueTitle { 
+    font-size: x-large;
+    text-align: center;
+    padding: 0px;
+}
+
+.blueTitle1 { 
+    font-size: x-large;
+    text-align: center;
+
+}
+.blueTitle2 { 
+    font-size: x-large;
+    text-align: center;
+}
+
+.blueTitle3 { 
+    font-size: x-large;
+    text-align: center;
+
+}
+
+.blueTitle4 { 
+    font-size: x-large;
+    text-align: center;
+}
+
+.blueTemp, 
+.blueTemp1,
+.blueTemp2,
+.blueTemp3,
+.blueTemp4,
+.blueHum, 
+.blueHum1,
+.blueHum2,
+.blueHum3,
+.blueHum4 { 
+    font-size: large;
+    margin-top:15px;
+    padding-bottom: 2px;
+
+}
+
+
+.fiveDay { 
+    margin-left: 20px;
 }
