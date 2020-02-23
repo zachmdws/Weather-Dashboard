@@ -1,9 +1,14 @@
 .weatherBar { 
     margin: auto;
     width: 100px;
-    
+    font-family: cursive;
+    font-weight: 525;
 }
 
+body { 
+    background-image: url(https://image.freepik.com/free-vector/white-blurred-background_1034-249.jpg);
+    background-size: cover;
+}
 .navbar { 
     background-image: url(https://blogs.vmware.com/canada/files/2019/09/cloud-trends.jpg);
     background-size: cover;
@@ -11,11 +16,11 @@
 
 .leftBox {
     width: 26%;
-    height: 840px;
-    background-color: darkgray;
     margin-bottom: 0px;
     float: left;
     padding-top: 25px;
+    background-image: url(https://image.freepik.com/free-vector/white-blurred-background_1034-249.jpg);
+    background-size: cover;
 }
 
 .searchHolder { 
@@ -71,9 +76,8 @@
 #right-container { 
     width: 1800px;
     height: 750px;
-    background-color: white;
     margin-right: 0px;
-    float: left;
+    /* float: left; */
     
 }
 
